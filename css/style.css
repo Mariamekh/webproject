@@ -1,0 +1,1652 @@
+/* === Common === */
+
+html,
+body {
+    font-family: 'Titillium Web', sans-serif;
+    height: 100%;
+    /* background-color: #87509c; */
+    padding: 0;
+    margin: 0;
+    background-color: #ffffff;
+    overflow: auto;
+}
+
+body.hiden {
+    overflow: hidden;
+}
+
+.wrapper {
+    overflow: auto;
+    padding: 0 20px;
+    max-width: 1140px;
+    position: relative;
+    margin: 0 auto;
+}
+
+.center {
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+/* === Common === */
+
+
+/* === Header === */
+
+.nav {
+    display: flex;
+    list-style-type: none;
+}
+
+.nav li {
+    padding-left: 44px;
+}
+
+.nav li a {
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18px;
+    text-transform: uppercase;
+    color: #faf8fb;
+}
+
+.nav li a:hover {
+    border: 1px solid #643a79;
+    background-color: #643a79;
+    padding: 6px 17px;
+    border-radius: 3px;
+    text-align: center;
+    transition: linear 0.2s;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 57px;
+}
+
+.banner {
+    background-image: url(../img/Bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.text_1 {
+    margin-top: 145px;
+    margin-bottom: 62px;
+    max-width: 906px;
+    max-height: 88px;
+    margin-left: auto;
+    margin-right: auto;
+    color: #f7f3ea;
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 48.82px;
+    text-align: center;
+    max-width: 906px;
+}
+
+.click {
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 145px;
+}
+
+.btn {
+    font-family: 18px;
+    border: 1px solid #eb7d4b;
+    border-radius: 5px;
+    text-decoration: none;
+    background-color: #eb7d4b;
+    color: #ffffff;
+    font-family: "Titillium Web - Semi Bold";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 26.19px;
+    text-transform: uppercase;
+    letter-spacing: 0.27px;
+    box-shadow: 0px 4px #c86a40;
+    width: 293px;
+    text-align: center;
+    padding-top: 24px;
+    padding-bottom: 20px;
+}
+
+
+/* === Header === */
+
+
+/* === Services === */
+
+.page-2 {
+    background-image: url(../img/bg-2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.tittle-2 {
+    color: #ffffff;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 29.91px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    margin-top: 110px;
+    white-space: nowrap;
+}
+
+.tittle-2::after {
+    content: " ";
+    display: block;
+    border-bottom: 4px solid #14a58b;
+    width: 84px;
+    margin-top: 22px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.text-2 {
+    color: #ffffff;
+    font-family: "Titillium Web";
+    font-size: 18px;
+    font-weight: 400;
+    max-width: 603px;
+    text-align: center;
+    margin: -4px auto;
+    line-height: 26px;
+    letter-spacing: 0.36px;
+}
+
+.block-2 {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    margin-top: 85px;
+    margin-bottom: 110px;
+    position: relative;
+}
+
+.design,
+.development,
+.rocket {
+    margin-left: 85px;
+    text-align: center;
+    max-width: 200px;
+}
+
+.branding {
+    max-width: 195px;
+    text-align: center;
+}
+
+.block_tittle {
+    margin-top: 62px;
+    margin-bottom: 27px;
+    color: #ffffff;
+    font-family: "Titillium Web";
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 18px;
+    text-transform: uppercase;
+    align-items: center;
+    line-height: 1;
+}
+
+.block_tittle:last-child {
+    letter-spacing: 50px;
+}
+
+.block_text {
+    color: #ffffff;
+    font-family: "Titillium Web";
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 24px;
+    max-width: 200px;
+    align-items: center;
+}
+
+.block_tittle::before {
+    content: " ";
+    display: flex;
+    align-items: center;
+}
+
+.branding::before {
+    content: url(../img/Branding.png);
+    display: block;
+}
+
+.design::before {
+    content: url(../img/Design.png);
+    display: block;
+}
+
+.development::before {
+    content: url(../img/Dev.png);
+    display: block;
+}
+
+.rocket::before {
+    content: url(../img/rocket.png);
+    display: block;
+}
+
+
+/* === Services === */
+
+
+/* team  */
+
+.page-3 {
+    background-image: url(../img/bg-3.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.tittle-3 {
+    color: #3c4761;
+    font-family: "Titillium Web";
+    font-size: 41px;
+    font-weight: 700;
+    line-height: 30.87px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    white-space: nowrap;
+    margin-top: 110px;
+}
+
+.tittle-3::after {
+    content: " ";
+    display: block;
+    border-bottom: 4px solid #c7d9e5;
+    width: 84px;
+    margin-top: 26px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.text-3 {
+    color: #3c4761;
+    font-family: "Titillium Web";
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 26.84px;
+    letter-spacing: 0.36px;
+    margin-top: auto;
+    margin-bottom: 80px;
+}
+
+.block-3 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 157px;
+    position: relative;
+}
+
+.text-description {
+    max-width: 196px;
+    height: 112px;
+    color: #3c4761;
+    font-family: "Titillium Web";
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 24px;
+    letter-spacing: 0.32px;
+    display: flex;
+    align-items: flex-end;
+    margin-bottom: 25px;
+}
+
+.text-description:nth-child(3) {
+    max-width: 202px;
+    max-height: 112px;
+}
+
+.circle1 {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    margin-left: 50px;
+}
+
+.circle1::before {
+    content: " ";
+    display: block;
+    border: 1px solid #878787;
+    width: 200px;
+    height: 200px;
+    background-color: #878787;
+    border-radius: 100%;
+}
+
+.tittle-name {
+    color: #27283d;
+    font-family: "Titillium Web";
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 18px;
+    text-transform: uppercase;
+    letter-spacing: 0.48px;
+    margin-top: 44px;
+}
+
+.tittle-post {
+    width: 156px;
+    height: 16px;
+    color: #30bae7;
+    font-family: "Titillium Web";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0.32px;
+    margin-top: -2px;
+    margin-bottom: 15px;
+    white-space: nowrap;
+}
+
+.social li {
+    list-style: none;
+    margin-left: 13px;
+}
+
+.social {
+    display: flex;
+    position: absolute;
+    margin: -30px;
+    bottom: 0;
+}
+
+
+/* team  */
+
+
+/* === Skills === */
+
+.page-4 {
+    background-image: url(../img/bg-4.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.tittle-4 {
+    font-family: "Titillium Web";
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 29.91px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    text-align: center;
+    white-space: nowrap;
+    margin-top: 110px;
+}
+
+.tittle-4::after {
+    content: " ";
+    display: block;
+    border-bottom: 4px solid #dfe8ed;
+    width: 84px;
+    margin-top: 26px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.text-4 {
+    color: #3c4761;
+    font-family: "Titillium Web";
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 0.36px;
+    text-align: center;
+    margin-top: auto;
+    width: 600px;
+    max-height: 20px;
+}
+
+.block-4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 85px;
+    margin-bottom: 85px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1000px;
+    white-space: nowrap;
+}
+
+.block-4 h3 {
+    color: #3c4761;
+    font-family: "Titillium Web";
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 18px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.number h1 {
+    color: #3c4761;
+    font-family: "Titillium Web";
+    font-size: 50px;
+    font-weight: 300;
+    text-transform: uppercase;
+    position: absolute;
+    padding: 0px 0 66px 47px;
+    text-align: center;
+    align-items: center;
+}
+
+.number span {
+    vertical-align: middle;
+    font-size: 32px;
+}
+
+.number img {
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.number {
+    height: 160px;
+    width: 160px;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.html,
+.graphic,
+.ui {
+    margin-left: 120px;
+}
+
+
+/* === Skills === */
+
+
+/* === Portfolio === */
+
+.page-5 {
+    background-image: url(../img/Bg-5.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0 auto;
+}
+
+.tittle-5 {
+    color: #393939;
+    font-family: "Titillium Web";
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 29.91px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    margin-top: 110px;
+    white-space: nowrap;
+}
+
+.tittle-5::after {
+    content: " ";
+    display: block;
+    border-bottom: 4px solid black;
+    width: 84px;
+    margin-top: 26px;
+    margin-left: auto;
+    margin-right: auto;
+    opacity: 0.15;
+}
+
+.text-5 {
+    max-width: 515px;
+    color: #393939;
+    font-family: "Titillium Web";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: center;
+    margin-top: auto;
+    margin-bottom: 29px;
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+.menu-box {
+    display: block;
+    text-decoration: none;
+    color: #393939;
+    font-family: "Titillium Web";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 19.5px;
+    text-transform: uppercase;
+    letter-spacing: 0.36px;
+    border: 1px solid #ebcb8d;
+    background-color: #ebcb8d;
+    padding: 10px 15px 10px 15px;
+    border-radius: 5px;
+    text-align: center;
+    margin-right: 15px;
+    width: 64px;
+}
+
+.menu-box:hover {
+    border: 1px solid #ffffff;
+    background-color: #ffffff;
+}
+
+
+/* .photos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    } */
+
+.first {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.first h3,
+.second h3 {
+    color: #393939;
+    font-family: "Titillium Web";
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 19.5px;
+    text-transform: uppercase;
+    letter-spacing: 0.36px;
+}
+
+.photos {
+    margin-top: 60px;
+}
+
+.second {
+    margin-top: 55px;
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.btn-5 {
+    text-align: center;
+    color: #ffffff;
+    font-family: "Titillium Web - Semi Bold";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 26.19px;
+    text-transform: uppercase;
+    letter-spacing: 0.27px;
+    text-decoration: none;
+    border: 1px solid #17c2a4;
+    background-color: #17c2a4;
+    padding: 28px 55px 20px 58px;
+    max-width: 293px;
+    box-shadow: 0px 4px #14a58b;
+    border-radius: 5px;
+    white-space: nowrap;
+}
+
+.click-5 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 84px;
+    margin-bottom: 110px;
+}
+
+
+/* === Portfolio === */
+
+
+/* === Feedback === */
+
+.page-6 {
+    background-image: url(../img/bg-6.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+
+.tittle-6 {
+    margin-top: 110px;
+    color: #ffffff;
+    font-family: "Titillium Web";
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 29.91px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    white-space: nowrap;
+}
+
+.text-6 {
+    color: #ffffff;
+    font-family: "Titillium Web";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0.36px;
+    margin-top: auto;
+}
+
+.tittle-6::after {
+    content: " ";
+    display: block;
+    border-bottom: 4px solid #b73b6d;
+    width: 84px;
+    margin-top: 22px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.block-6 {
+    margin-left: 100px;
+    margin-top: 75px;
+    margin-bottom: 115px;
+}
+
+.quote {
+    max-width: 368px;
+    color: #ffffff;
+    font-family: "Titillium Web";
+    font-size: 21px;
+    font-style: italic;
+    line-height: 31.2px;
+    letter-spacing: 0.35px;
+    text-align: left;
+}
+
+.person-name {
+    color: #ffffff;
+    font-family: "Titillium Web";
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 26px;
+    text-transform: uppercase;
+    letter-spacing: 0.48px;
+}
+
+.person-post {
+    color: #ffdd99;
+    font-family: "Titillium Web";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0.36px;
+    margin-top: -14px;
+}
+
+.first-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    position: relative;
+}
+
+.second-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.first-row {
+    display: flex;
+    justify-content: space-around;
+}
+
+.second-row {
+    margin-top: 160px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.first-column::before {
+    content: " ";
+    width: 96px;
+    height: 96px;
+    background-color: #787878;
+    display: block;
+    border-radius: 50%;
+    position: absolute;
+    margin-left: -141px;
+    top: -5px;
+}
+
+.second-column::before {
+    content: " ";
+    width: 96px;
+    height: 96px;
+    background-color: #787878;
+    display: block;
+    border-radius: 50%;
+    position: absolute;
+    margin-left: -141px;
+}
+
+.second-column {
+    margin-left: 110px;
+}
+
+
+/* === Feedback === */
+
+
+/* Get in touch */
+
+.page-7 {
+    background-image: url(../img/Base.png);
+}
+
+.tittle-7 {
+    color: #ffffff;
+    font-family: "Titillium Web";
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 29.91px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    margin-top: 110px;
+    white-space: nowrap;
+}
+
+.tittle-7::after {
+    content: " ";
+    display: block;
+    border-bottom: 5px solid #273a71;
+    width: 84px;
+    margin-top: 22px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.text-7 {
+    color: #ffffff;
+    font-family: "Titillium Web";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0.36px;
+    margin-top: auto;
+}
+
+input {
+    width: 414px;
+    height: 56px;
+    background-color: #273a71;
+    color: #ffffff;
+    border: 1px solid #273a71;
+    border-radius: 5px;
+    padding-left: 15px;
+}
+
+textarea {
+    width: 860px;
+    height: 200px;
+    background-color: #273a71;
+    resize: none;
+    border: 1px solid #273a71;
+    border-radius: 5px;
+    margin-top: 27px;
+    padding-left: 20px;
+    padding-top: 22px;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.touch {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 75px;
+    margin-bottom: 27px;
+}
+
+.write:not(:first-child) {
+    margin-left: 20px;
+}
+
+.form {
+    margin-bottom: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.write::placeholder,
+.textarea::placeholder {
+    color: #ffffff;
+    font-family: "Titillium Web";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 18px;
+}
+
+.write::placeholder span {
+    color: red;
+}
+
+.textarea {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.btn-7 {
+    color: #ffffff;
+    font-family: "Titillium Web - Semi Bold";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 26.19px;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 0.27px;
+    border: 1px solid #30bae7;
+    background-color: #30bae7;
+    padding: 28px 83px 24px 85px;
+    text-align: center;
+    box-shadow: 0px 4px #299ec4;
+    max-width: 293px;
+    border-radius: 5px;
+    white-space: nowrap;
+}
+
+.click-7 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 110px;
+}
+
+
+/* Get in touch */
+
+
+/* === Footer === */
+
+.footer {
+    background-image: url(../img/footer.png);
+    background-size: cover;
+}
+
+.socialmedia a {
+    text-decoration: none;
+    color: #ffffff;
+    font-family: "Titillium Web - Semi Bold";
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 29.91px;
+}
+
+.socialmedia {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-between;
+    padding-top: 45px;
+    padding-bottom: 40px;
+}
+
+.socialmedia a:hover {
+    color: #30bae7;
+}
+
+
+/* === Footer ===*/
+
+@media (max-width: 1100px) {
+    .wrapper {
+        max-width: 900px;
+        overflow: auto;
+        padding: 0 15px;
+        position: relative;
+        margin: 0 auto;
+        ;
+    }
+    .form {
+        transform: scale(0.8);
+    }
+    .block-2 {
+        flex-wrap: nowrap;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .block-4 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin-top: 73px;
+        margin-bottom: 85px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 70%;
+        flex-wrap: nowrap;
+        white-space: nowrap;
+        transform: scale(0.8);
+    }
+    .block-3 {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 117px;
+        position: relative;
+        transform: scale(0.85);
+        margin-left: -35px;
+    }
+    .html {
+        margin-right: 21%;
+    }
+    .graphic {
+        padding: 0;
+        margin-left: -64px;
+        margin-right: 1px;
+    }
+    .ui {
+        margin-right: 50px;
+    }
+    .graphic,
+    .ui {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 0px;
+    }
+    .web,
+    .html,
+    .graphic,
+    .ui {
+        padding: 0;
+        margin-right: auto;
+        margin-left: 48px;
+    }
+    .photos img,
+    .photos-1 img {
+        width: 80%;
+    }
+    .first-column::before,
+    .second-column::before {
+        display: none;
+    }
+    .circle1::before {
+        width: 150px;
+        height: 150px;
+    }
+    .social img {
+        width: 80%;
+    }
+    .tittle-name {
+        font-size: 18px;
+        margin-top: 20px;
+    }
+    .tittle-post {
+        width: 134px;
+        margin-top: -6px;
+        margin-bottom: 85px;
+    }
+    .text-description {
+        width: 145px;
+    }
+    #toedit {
+        box-sizing: border-box;
+        display: flex;
+        align-self: stretch;
+    }
+    .block-6 {
+        margin-left: 0;
+        margin-top: 51px;
+        margin-bottom: 83px;
+    }
+    .btn-7 {
+        width: 116px;
+        white-space: nowrap;
+        padding-top: 14px;
+        padding-bottom: 11px;
+        text-align: center;
+        padding-left: 57px;
+    }
+    .btn-5 {
+        width: 170px;
+        white-space: nowrap;
+        padding-top: 14px;
+        padding-bottom: 11px;
+        text-align: center;
+        padding-left: 33px;
+    }
+    .click {
+        margin-bottom: 88px;
+        margin-top: 152px;
+    }
+}
+
+@media (max-width: 730px) {
+    .wrapper {
+        overflow: auto;
+        padding: 0 15px;
+        position: relative;
+        margin: 0 auto;
+    }
+    .text_1 {
+        max-width: 800px;
+        box-sizing: border-box;
+    }
+    .block-2 {
+        display: flex;
+        padding-left: 0;
+        padding-right: 0;
+        justify-content: center;
+        flex-wrap: nowrap;
+    }
+    .block_tittle {
+        white-space: nowrap;
+    }
+    .branding,
+    .design,
+    .development,
+    .rocket {
+        margin: 0;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .rocket p {
+        max-width: 500px;
+    }
+    .block-3 {
+        box-sizing: border-box;
+        margin-left: -51px;
+        margin-bottom: 116px;
+    }
+    .circle1::before {
+        width: 100px;
+        height: 100px;
+    }
+    .social img {
+        width: 80%;
+    }
+    .tittle-name {
+        font-size: 17px;
+        margin-top: 25px;
+    }
+    .tittle-post {
+        width: 134px;
+        margin-top: -6px;
+        margin-bottom: 85px;
+    }
+    .text-description {
+        width: 145px;
+    }
+    #toedit {
+        box-sizing: border-box;
+        display: flex;
+        align-self: stretch;
+    }
+    .block-4 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin-top: 73px;
+        margin-bottom: 85px;
+        margin-left: 129px;
+        margin-right: auto;
+        width: 74%;
+        flex-wrap: wrap;
+        white-space: nowrap;
+    }
+    .html {
+        margin-right: 22%;
+    }
+    .graphic {
+        padding: 0;
+        margin-left: -64px;
+        margin-right: 1px;
+    }
+    .ui {
+        margin-right: 17px;
+    }
+    .graphic,
+    .ui {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 20px;
+    }
+    .photos img,
+    .photos-1 img {
+        width: 80%;
+    }
+    .tittle-2 {
+        margin-top: 87px;
+    }
+    .tittle-3 {
+        margin-top: 87px;
+    }
+    .tittle-4 {
+        margin-top: 87px;
+    }
+    .click-5 {
+        margin-top: 63px;
+        margin-bottom: 80px;
+    }
+    .tittle-5 {
+        margin-top: 76px;
+    }
+    .first-column::before {
+        display: none;
+    }
+    .second-column::before {
+        display: none;
+    }
+    .second-row {
+        margin-top: 59px;
+        align-items: flex-end;
+    }
+    .tittle-6 {
+        margin-top: 80px;
+    }
+    .block-6 {
+        margin-left: auto;
+        margin-top: 38px;
+        margin-bottom: 78px;
+    }
+    .text_1 {
+        margin-top: 100px;
+    }
+    .click {
+        margin-bottom: 83px;
+        margin-top: 172px;
+    }
+    .btn {
+        width: 242px;
+        white-space: nowrap;
+        padding-top: 14px;
+        padding-bottom: 11px;
+    }
+    .touch {
+        flex-direction: column;
+        margin-top: 18px;
+        margin-bottom: 27px;
+    }
+    button,
+    input,
+    optgroup,
+    select,
+    textarea {
+        margin-left: auto;
+    }
+    .write {
+        margin-left: 20px;
+        margin-top: 10px;
+        max-width: 80%
+    }
+    textarea {
+        max-width: 75%;
+        margin-left: 100px;
+    }
+    .textarea {
+        margin-left: 20px;
+        margin-top: -14px;
+    }
+    .btn-7 {
+        width: 116px;
+        white-space: nowrap;
+        padding-top: 14px;
+        padding-bottom: 11px;
+        text-align: center;
+        padding-left: 57px;
+    }
+    .btn-5 {
+        width: 170px;
+        white-space: nowrap;
+        padding-top: 14px;
+        padding-bottom: 11px;
+        text-align: center;
+        padding-left: 33px;
+    }
+    .click-5 {
+        margin-top: 42px;
+        margin-bottom: 73px;
+    }
+    .tittle-7 {
+        margin-top: 76px;
+    }
+    .click-7 {
+        margin-bottom: 67px;
+    }
+    .socialmedia a {
+        font-size: 20px;
+    }
+    .socialmedia {
+        padding-top: 28px;
+        padding-bottom: 28px;
+    }
+    .navigation a {
+        margin-left: 17px;
+        margin-right: -2px;
+    }
+    .navigation {
+        margin-top: 40px;
+    }
+    .social {
+        margin-left: -14px;
+    }
+    .text_1 {
+        font-size: 30px;
+        line-height: 37.82px;
+        width: 300px;
+    }
+    .navigation {
+        margin-top: 40px;
+    }
+    .btn {
+        width: 190px;
+        padding-top: 9px;
+        padding-bottom: 6px;
+        font-size: 16px;
+    }
+    .click {
+        margin-bottom: 80px;
+        margin-top: 138px;
+    }
+    .tittle-2 {
+        font-size: 21px;
+        margin-top: 51px;
+    }
+    .text-2 {
+        font-size: 14px;
+    }
+    .branding::before,
+    .design::before,
+    .development::before,
+    .rocket::before {
+        display: none;
+    }
+    .block-2 {
+        flex-direction: column;
+        align-items: center;
+        margin-top: 0;
+        margin-bottom: 43px;
+    }
+    .tittle-3 {
+        font-size: 21px;
+        margin-top: 51px;
+        white-space: normal;
+        text-align: center;
+        letter-spacing: 2px;
+    }
+    .text-3 {
+        font-size: 14px;
+        text-align: center;
+    }
+    .tittle-3::after {
+        margin-top: 16px;
+    }
+    .text-description,
+    #toedit {
+        display: none;
+    }
+    .block-3 {
+        flex-direction: column;
+        margin-bottom: -45px;
+        margin-top: -52px;
+        flex-wrap: wrap;
+    }
+    .social {
+        display: none;
+    }
+    .circle1 {
+        margin-top: -18px;
+    }
+    .tittle-4 {
+        font-size: 21px;
+        margin-top: 51px;
+        white-space: normal;
+        text-align: center;
+        letter-spacing: 2px;
+    }
+    .tittle-4::after {
+        margin-top: 11px;
+    }
+    .text-4 {
+        font-size: 14px;
+        text-align: center;
+        width: 300px;
+    }
+    .tittle-5 {
+        font-size: 21px;
+        margin-top: 51px;
+        white-space: normal;
+        text-align: center;
+        letter-spacing: 2px;
+    }
+    .tittle-5::after {
+        margin-top: 11px;
+    }
+    .text-5 {
+        font-size: 14px;
+        text-align: center;
+    }
+    .tittle-6 {
+        font-size: 21px;
+        margin-top: 51px;
+        white-space: normal;
+        text-align: center;
+        letter-spacing: 2px;
+    }
+    .tittle-6::after {
+        margin-top: 15px;
+    }
+    .text-6 {
+        font-size: 14px;
+        text-align: center;
+    }
+    .tittle-7 {
+        font-size: 21px;
+        margin-top: 51px;
+        white-space: normal;
+        text-align: center;
+        letter-spacing: 2px;
+    }
+    .text-7 {
+        font-size: 14px;
+        text-align: center;
+    }
+    .btn-5 {
+        width: 148px;
+        padding-top: 9px;
+        padding-bottom: 6px;
+        font-size: 16px;
+        padding-left: 31px;
+    }
+    .click-5 {
+        margin-bottom: 80px;
+        margin-top: 138px;
+    }
+    .btn-7 {
+        width: 82px;
+        padding-top: 9px;
+        padding-bottom: 6px;
+        font-size: 16px;
+        padding-left: 40px;
+    }
+    .click-7 {
+        margin-bottom: 59px;
+        margin-top: 34px;
+    }
+    .form {
+        margin-bottom: 49px;
+    }
+    textarea {
+        max-width: 89%;
+        max-height: 139px;
+    }
+    .textarea {
+        margin-left: 0px;
+        padding-left: 14px;
+        padding-top: 15px;
+    }
+    .textarea::placeholder {
+        font-size: 16px;
+    }
+    .touch {
+        flex-direction: column;
+        margin-top: 18px;
+        margin-bottom: 27px;
+        width: 101%;
+        height: 97px;
+        margin-left: -22px;
+    }
+    .write::placeholder {
+        font-size: 14px;
+    }
+    .quote {
+        font-size: 13px;
+        line-height: 1;
+    }
+    .person-name {
+        font-size: 15px;
+        line-height: 1;
+    }
+    .first h3,
+    .second h3 {
+        font-size: 12px;
+        line-height: 1;
+    }
+    .click-5 {
+        margin-bottom: 59px;
+        margin-top: 41px;
+    }
+    .menu {
+        flex-wrap: wrap;
+        flex-basis: auto;
+        margin-top: -18px;
+        margin-right: 24px;
+    }
+    .menu li {
+        margin-top: 20px;
+    }
+    .circle1 {
+        float: left;
+    }
+    .person-post {
+        color: #ffdd99;
+        font-family: "Titillium Web";
+        font-size: 13px;
+        font-weight: 400;
+        line-height: 1;
+        letter-spacing: 0.36px;
+        margin-top: 1px;
+    }
+    .second-row {
+        margin-top: 33px;
+    }
+    .block-6 {
+        margin: 0;
+        margin-bottom: 20px;
+        margin-top: 12px;
+    }
+    .socialmedia {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+        box-sizing: border-box;
+        justify-content: space-evenly;
+        margin-left: 10px;
+    }
+    .socialmedia a {
+        font-size: 18px;
+    }
+    .block-4 {
+        margin: 60px auto 20px;
+        justify-content: center;
+        align-items: center;
+    }
+    .web,
+    .html,
+    .graphic,
+    .ui {
+        margin: 0 auto;
+        flex-wrap: wrap;
+    }
+    .header__burger {
+        display: block;
+        position: relative;
+        width: 30px;
+        height: 20px;
+        z-index: 5000;
+        position: fixed;
+        right: 25px;
+        margin-top: -2px;
+    }
+    .header__burger span {
+        position: absolute;
+        background-color: #ffffff;
+        width: 100%;
+        height: 2px;
+        left: 0;
+        top: 9px;
+        transition: all 0.3s ease 0s;
+    }
+    .header__burger::before,
+    .header__burger::after {
+        content: " ";
+        background-color: #ffffff;
+        width: 100%;
+        height: 2px;
+        left: 0;
+        position: absolute;
+        transition: all 0.3s ease 0s;
+    }
+    .header__burger::before {
+        top: 0;
+    }
+    .header__burger::after {
+        bottom: 0;
+    }
+    .logo {
+        z-index: 500;
+        transform: scale(0.9);
+        position: fixed;
+    }
+    .nav {
+        display: block;
+        position: fixed;
+        top: -100%;
+        left: 0;
+        width: 100%;
+        background-color: #87509c;
+        z-index: 3;
+        text-align: center;
+        transition: ease-in;
+        padding: 35px 0 51px 0;
+        margin: 0 auto;
+        padding: 32px 0px 45px 0;
+        margin: 0 auto;
+        height: 100%;
+        overflow: auto;
+    }
+    .nav li {
+        display: none;
+        margin: 68px 0 0 0;
+        padding: 0 0 0 0;
+        box-sizing: border-box;
+    }
+    .nav li a {
+        box-sizing: border-box;
+        font-size: 25px;
+        line-height: 23px;
+    }
+    .header__burger.active:before {
+        transform: rotate(45deg);
+        top: 9px
+    }
+    .header__burger.active::after {
+        transform: rotate(-45deg);
+        bottom: 9px;
+    }
+    .header__burger.active span {
+        transform: scale(0);
+    }
+    .nav.active {
+        top: 0;
+    }
+    .nav.active li {
+        display: block;
+    }
+    .navigation a {
+        margin-left: 0;
+        margin-right: 0;
+        margin-top: -4px;
+    }
+    body.block {
+        overflow: hidden;
+    }
+}
+
+
+/* .main-box {
+   
+    margin: 84px auto 122px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 100px;
+}
+
+.chart {
+    position: relative;
+    width: 160px;
+    height: 160px;
+    margin: 0 auto;
+    text-align: center;
+    color: #3c4761;
+    font-family: "Titillium Web";
+    font-size: 50px;
+    font-weight: 300;
+    line-height: 110px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.block-tittle-4 {
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    color: #3c4761;
+    font-family: "Titillium Web";
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 18px;
+    text-transform: uppercase;
+    margin-top: 33px;
+}
+
+.main-box .box-4 .chart canvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 160px;
+    width: 160px;
+}
+
+.chart span {
+    text-align: center;
+    top: 23px;
+    right: 33px;
+    position: absolute;
+} */
